@@ -22,6 +22,15 @@ exports.default = series(
   watcher.watchTask
 );
 
+exports.build = series(
+  htmlMinify.htmlTask,
+  scssCompiler.scssTask,
+  imageCompiler.imageTask,
+  imageCompiler.favicon,
+  jsCompiler.jsTask,
+  svgCompiler.svgTask
+);
+
 /* Execute htmlTask from html.js with gulp html on terminal */
 exports.html = series(htmlMinify.htmlTask);
 

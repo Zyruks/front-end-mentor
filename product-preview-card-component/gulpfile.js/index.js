@@ -15,6 +15,7 @@ exports.default = series(
   htmlMinify.htmlTask,
   scssCompiler.scssTask,
   imageCompiler.imageTask,
+  imageCompiler.favicon,
   jsCompiler.jsTask,
   svgCompiler.svgTask,
   browserSync.openServer,
@@ -32,3 +33,4 @@ exports.js = series(jsCompiler.jsTask);
 exports.svg = series(svgCompiler.svgTask);
 exports.browserSync = series(browserSync.openServer);
 exports.watch = series(watcher.watchTask);
+exports.favicon = series(imageCompiler.favicon);

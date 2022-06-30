@@ -6,9 +6,11 @@ body {
 
   align-items: center;
   justify-content: center;
+  margin: 0;
   overflow: hidden;
 
   background-color: var(--background-color);
+
   inline-size: 100vw;
   block-size: 100vh;
 }

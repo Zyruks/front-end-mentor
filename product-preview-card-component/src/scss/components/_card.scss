@@ -75,7 +75,11 @@
   inline-size: 100%;
   padding-block: rem(12);
 
-  &:active {
+  &:hover {
+    background-color: var(--dark-primary);
+  }
+
+  &:focus {
     background-color: var(--dark-primary);
   }
   @include breakpoint(x-large) {

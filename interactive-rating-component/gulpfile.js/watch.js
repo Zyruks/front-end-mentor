@@ -29,7 +29,7 @@ function watchTask() {
   );
 
   /* Watching for changes in the js files and then running the jsTask and reloading the server. */
-  watch("src/scripts/**/*.js", series(jsCompiler.jsTask, watcher.reloadServer));
+  watch("src/scripts/*.js", series(jsCompiler.jsTask, watcher.reloadServer));
 
   /* Watching for changes in the images folder and then running the imageTask and reloading the server. */
   watch(

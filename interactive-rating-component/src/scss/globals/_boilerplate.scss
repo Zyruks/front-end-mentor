@@ -17,14 +17,18 @@ html {
 
 body {
   display: flex;
+
   flex-direction: column;
+
+  gap: rem(30);
   align-items: center;
   justify-content: center;
-  block-size: 100vh;
+
   padding: 0;
   overflow: hidden;
 
   background-color: hsl(228deg, 20%, 9.8%);
+  block-size: 100vh;
 }
 
 ul {
@@ -43,4 +47,8 @@ a {
   &:visited {
     color: var(--primary-color);
   }
+}
+
+footer {
+  color: hsl(0deg, 0%, 100%);
 }

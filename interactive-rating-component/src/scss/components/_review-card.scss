@@ -20,22 +20,34 @@
 
   background-repeat: no-repeat;
   box-shadow: 0 0 rem(43) rem(12) rgba(0, 0, 0, 10%);
+
+  animation: key-opacity-on 500ms ease-in-out;
   block-size: rem(350);
-  min-inline-size: rem(300);
+  min-inline-size: rem(320);
   max-inline-size: rem(320);
   @include breakpoint(large) {
+    min-inline-size: rem(380);
     max-inline-size: rem(380);
 
     block-size: rem(400);
   }
 }
 
-.review-icon {
+.icon-container {
+  display: flex;
+  align-items: center;
   align-self: flex-start;
-  padding: rem(8);
-  border-radius: 50%;
+  justify-content: center;
+  border-radius: 100%;
 
   background-color: var(--dark-blue);
+  inline-size: rem(45);
+}
+
+.review-icon {
+  padding: rem(15);
+
+  inline-size: rem(45);
 }
 
 .review__title {

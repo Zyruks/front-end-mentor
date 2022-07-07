@@ -41,6 +41,7 @@ h4 {
 .review__paragraph {
   color: var(--light-grey);
   font-size: rem(14);
+  line-height: rem(26);
   @include breakpoint(large) {
     font-size: rem(16);
   }
@@ -50,7 +51,7 @@ h4 {
   color: var(--light-grey);
   font-weight: 700;
   @include breakpoint(large) {
-    font-size: rem(20);
+    font-size: rem(16);
   }
 }
 
@@ -58,11 +59,16 @@ h4 {
   color: var(--white);
   font-weight: 700;
   font-size: rem(16);
+  letter-spacing: rem(3);
   @include breakpoint(large) {
-    font-size: rem(24);
+    font-size: rem(18);
   }
 }
 
 /* ******************* *\
 ? #main typography end
 \* ******************* */
+
+.review__option {
+  font-size: rem(18);
+}

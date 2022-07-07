@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: rem(25);
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding-block-start: rem(25);
 }
 
@@ -13,7 +13,7 @@
 }
 
 .review__option {
-  padding: rem(10) rem(12) rem(6) rem(12);
+  padding: rem(10) rem(16) rem(6) rem(16);
   border-radius: rem(25);
 
   color: var(--primary-color);
@@ -22,5 +22,7 @@
 }
 
 .thank-you__paragraph {
+  inline-size: 100%;
+
   text-align: center;
 }

@@ -24,8 +24,8 @@ This is a solution to the [QR code component](https://www.frontendmentor.io/chal
 
 ### Links
 
-- [Live Solution](https://interactive-rating-component-ez3lqn595-zyruks.vercel.app/)
-- [Github](https://your-live-site-url.com)
+- [Live Solution](https://vercel.com/zyruks/front-end-mentor/Ea5ozyGzRfnPUTgqUqLro4wgv53a)
+- [Github](https://github.com/Zyruks/front-end-mentor/tree/main/qr-code-component)
 
 ## My process
 

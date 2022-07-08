@@ -30,6 +30,45 @@ h4 {
 /* ******************* *\
  ? #card typography
 \* ******************* */
+.card-text__title {
+  color: var(--white);
+  font-size: rem(26);
+
+  &:hover {
+    color: var(--cyan);
+
+    cursor: pointer;
+  }
+}
+
+.card-text__description {
+  color: var(--soft-blue);
+  font-weight: 300;
+  font-size: rem(18);
+  line-height: 1.8;
+}
+
+.card-text__ethereum {
+  color: var(--cyan);
+  font-weight: 700;
+}
+
+.card-text__time {
+  color: var(--soft-blue);
+}
+
+.card__about span {
+  color: var(--soft-blue);
+  font-size: rem(16);
+}
+
+.card__about a {
+  color: var(--white);
+
+  &:hover {
+    color: var(--cyan);
+  }
+}
 
 /* ******************* *\
  ? #card typography end

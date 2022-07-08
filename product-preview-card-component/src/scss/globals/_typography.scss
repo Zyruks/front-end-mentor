@@ -33,13 +33,14 @@ h4 {
 .card-text__type {
   color: var(--dark-grayish-blue);
   font-weight: 500;
-  font-size: rem(18);
+  font-size: rem(12);
   font-family: $primary-font;
+  letter-spacing: rem(5);
   text-transform: uppercase;
 }
 
 .card-text__title {
-  font-size: rem(36);
+  font-size: rem(34);
   font-family: $secondary-font;
   line-height: rem(36);
 }
@@ -54,7 +55,7 @@ h4 {
 
 .final-price {
   color: var(--primary-color);
-  font-size: rem(42);
+  font-size: rem(32);
   font-family: $secondary-font;
 }
 

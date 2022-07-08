@@ -31,8 +31,9 @@ h4 {
  ? #qr-code typography
 \* ******************* */
 .qr-card__title {
+  color: var(--dark-blue);
   font-weight: 700;
-  font-size: rem(26);
+  font-size: rem(24);
   line-height: 1.4;
   text-align: center;
 }

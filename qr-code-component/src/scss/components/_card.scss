@@ -1,0 +1,31 @@
+@use "../abstract/" as *;
+
+.qr-card {
+  display: flex;
+  flex-direction: column;
+  gap: rem(24);
+  align-items: center;
+  justify-content: flex-start;
+  max-inline-size: rem(350);
+  padding: rem(18);
+  block-size: rem(580);
+  border-radius: rem(16);
+
+  background-color: var(--white);
+}
+
+.qr-card__img {
+  inline-size: 100%;
+
+  border-radius: rem(16);
+}
+
+.qr-card__title {
+  inline-size: 100%;
+
+  margin: 0;
+}
+
+.qr-card__description {
+  margin: 0;
+}
